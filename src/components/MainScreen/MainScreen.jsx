@@ -1,6 +1,6 @@
 import React from 'react';
-import { BiLockAlt } from 'react-icons/bi';
 import './MainScreen.css';
+import { BiSolidLock } from "react-icons/bi";
 import Plus from '../../assets/plus.png'; // Path to the blue "+" icon
 import MainImage from '../../assets/main screen image.png'; // Path to the main center image
 
@@ -20,7 +20,7 @@ const MainScreen = () => {
           </p>
         </div>
         <div className="encryption">
-          <BiLockAlt className="lock-icon" />
+          <BiSolidLock className="lock-icon" />
           <span>end-to-end encrypted</span>
         </div>
       </div>
