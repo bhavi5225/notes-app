@@ -1,0 +1,97 @@
+/* Container styling */
+.main-screen {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 25%;
+    background-color: #ffffff; /* White background for sidebar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+  }
+  
+  .sidebar h2 {
+    font-size: 2.4rem;
+    color: #000000;
+    margin-top: 1.40rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: 0.02em;
+
+  }
+  
+  .add-icon {
+    width: 4.4rem; /* Adjust size as needed */
+    margin-bottom: 1.25rem;
+    position:relative;
+    left:7.7rem;
+    /* right:5rem; */
+  }
+  
+  /* Main content area styling */
+  .content {
+    width: 75%;
+    background-color: #DAE5F5;
+    /* Light blue background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem 1.2rem 0 1.2rem;
+  }
+  
+  .main-image {
+    width: 63%; /* Adjust size as needed */
+    margin-bottom: 1.25rem;
+    height:52%;
+    padding-top: 3.8rem;
+  }
+  .main-text h1 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    font-weight: 750;
+   line-height: 5rem;
+   letter-spacing: 0.02em;
+
+
+  }
+  
+  .main-text p {
+    font-size: 1.2rem;
+    color: #292929 ;
+    margin: 0.3rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.3rem;
+   letter-spacing: 0.02em;
+
+
+  }
+  
+  /* Encryption lock icon styling */
+  .encryption {
+    display: flex;
+    align-items: center;
+    padding-top: 9rem;
+    margin-bottom: 1.25rem;
+    /* position: relative; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    color:#292929;
+    height:10rem;
+    
+  }
+  
+  .lock-icon {
+    margin-right: 0.3rem;
+  }
+  
