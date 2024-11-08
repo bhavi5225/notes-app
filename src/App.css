@@ -1,10 +1,11 @@
-/* .app-container {
-    display: flex;
-    flex-direction: column;
+.app-container {
+    /* display: flex;
+    flex-direction: column; */
     height: 100vh;
-    position: relative;
+    max-height: 100vh;
+    /* position: relative; */
   }
-  
+/*   
   .add-group-icon {
     position: fixed;
     bottom: 2rem;

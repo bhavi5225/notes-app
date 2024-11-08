@@ -13,13 +13,14 @@ function App() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   const createGroup = (newGroup) => {
-    setGroups([...groups, newGroup]);
+    setGroups([...groups,newGroup]);
     setCurrentGroup(newGroup);
   };
 
   return (
     <div className="app-container">
       <MainScreen />
+      
       <Group
         groups={groups}
         currentGroup={currentGroup}
@@ -44,3 +45,4 @@ function App() {
 }
 
 export default App;
+

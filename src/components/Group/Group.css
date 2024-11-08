@@ -1,63 +1,65 @@
-
-  
- */
  .group-list {
   display: flex;
-  flex-direction: column;
+  /* flex-direction:column; */
+  
   width: 100%;
   margin-top: 2rem;
   flex-grow: 1;
-  overflow-y: auto; /* Keep scroll functionality */
-  /* scrollbar-width: none; 
-  -ms-overflow-style: none;  */
+  overflow-y: auto;
+
 }
 
 .group-item {
   height: 6rem;
-  width: 18rem;
+  width: 100%;
   cursor: pointer;
-  display: flex;
-  align-items: top;
-  margin-top:0.1rem;
-  
+  align-items: center;
+  display:flex;
+padding-left:1rem ;
+  margin-top: 0.1rem;
+  padding-left: 2rem;
   background-color: #ffffff;
-  /* margin-bottom: 1rem; */
-  /* padding: 0.3rem; */
+  cursor: pointer;
+}
+.group-item:active{
+  background-color:#2F2F2F2B;
+  
 }
 
+
 .color-circle {
-  width: 2.2rem; /* Increased size */
-  height: 2.2rem; /* Increased size */
+  width: 2.2rem;
+  height: 2.2rem;
   border-radius: 50%;
-  background-color: #000; /* Add background color if necessary */
+  background-color: #000;
 }
 
 .group-initials {
-  z-index: 1; 
+  z-index: 1;
   position: relative;
   border-radius: 50%;
-  width: 3rem; /* Increased circle size */
-  height: 3rem; /* Increased circle size */
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem; /* Increased font size */
+  font-size: 1.2rem;
   font-weight: bold;
   color: #ffffff;
-  margin-right: 1.5rem; /* Adds space between circle and text */
+  margin-right: 1.5rem;
 }
 
 .group-name {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #000000;
   font-weight: 500;
   line-height: 1.9rem;
-  top:0.5rem;
+  top: 0.1rem;
   position: relative;
   letter-spacing: 0.02em;
   text-align: left;
-  /* white-space: nowrap; */
-  overflow: hidden; /* Ensures overflow content is hidden */
-  /* text-overflow: ellipsis; Adds ellipsis for long text */
-  max-width: 11rem; /* Set max width to avoid overlap */
-}
+  overflow: hidden;
+  max-width: 11rem;
+} 
+ 
+ 
