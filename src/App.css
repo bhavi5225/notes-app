@@ -1,0 +1,29 @@
+/* .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .add-group-icon {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1024px) {
+    .app-container {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .add-group-icon {
+      bottom: 1rem;
+      right: 1rem;
+      width: 2rem;
+    }
+  }
+   */

@@ -1,0 +1,49 @@
+.notes-section {
+    padding: 1rem;
+    background-color: #ffffff;
+  }
+  
+  .notes-list {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+  
+  .note-item {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .note-item p {
+    margin: 0;
+  }
+  
+  .note-item span {
+    font-size: 0.8rem;
+    color: gray;
+  }
+  
+  .note-input {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  textarea {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .send-icon {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .send-icon.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
