@@ -47,7 +47,8 @@
   /* position: relative; */
   left:16rem;
   position:fixed;
-  top:46rem;
+  /* top:46rem; */
+  bottom:2rem;
 }
 
 .content {
