@@ -1,6 +1,5 @@
  .group-list {
   display: flex;
-  /* flex-direction:column; */
   
   width: 100%;
   margin-top: 2rem;
@@ -21,10 +20,9 @@ padding-left:1rem ;
   background-color: #ffffff;
   cursor: pointer;
 }
-.group-item:active{
-  background-color:#2F2F2F2B;
-  
-}
+
+
+
 
 
 .color-circle {
@@ -63,3 +61,5 @@ padding-left:1rem ;
 } 
  
  
+
+  

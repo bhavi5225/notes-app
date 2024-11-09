@@ -69,6 +69,7 @@ padding-right: 3rem;
   border-radius: 1em;
   font-size: 1.3rem;
   color: #000;
+  outline: none;
 }
 
 /* Create group button styling */

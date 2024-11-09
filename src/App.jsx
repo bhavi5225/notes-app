@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
+import Notes from './components/Notes/Notes';
 import MainScreen from './components/MainScreen/MainScreen';
 import GroupPopup from './components/GroupPopup/GroupPopup';
 import Group from './components/Group/Group';
-import Notes from './components/Notes/Notes';
 import './App.css';
 import './index.css';
 
@@ -44,5 +44,6 @@ function App() {
   );
 }
 
-export default App;
 
+
+export default App;
