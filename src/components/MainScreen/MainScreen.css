@@ -5,13 +5,14 @@
 }
 
 .sidebar {
-  width: 27%;
+  width: 27vw;
   background-color: #ffffff;
   align-items: center;
   padding-bottom: 1.5rem;
   overflow-y: auto;
   position: relative;
   max-height: 100vh;
+  
 }
 .sidebar::-webkit-scrollbar {
   width: 0.8rem;
@@ -28,7 +29,7 @@
   background: #ffffff;
   border-radius: 1rem;
   height: 1rem;
-  min-height: 1rem;
+  /* min-height: 1rem; */
 }
 
 .sidebar::-webkit-scrollbar-thumb:hover {
@@ -54,9 +55,14 @@
 .add-icon {
   width: 4.4rem;
   margin-bottom: 1.25rem;
-  left: 17.4rem;
+  /* left: auto; */
   position: fixed;
-  bottom: 1rem;
+  right:76%;
+  /* left: 20%; */
+  bottom: 2rem;
+  /* top:50rem; */
+
+  z-index: 1;
 }
 .add-icon:hover {
   cursor: pointer;
@@ -118,7 +124,7 @@
   margin-right: 0.3rem;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .sidebar {
     width: 30%;
     padding: 2rem 1rem;
@@ -154,27 +160,34 @@
   .sidebar {
     width: 100%;
     padding: 1rem;
+    height:100vh;
   }
   .content {
     display: none;
   }
   .add-icon {
-    width: 2.8rem;
+    width: 3rem;
     position: relative;
-    top: 27rem;
-    left: 10rem;
+    top: 17rem;
+    left: 21rem;
   }
 }
 
 @media (max-width: 375px) {
   .sidebar h2 {
     font-size: 2rem;
+    
+  }
+  .content{
+    min-height:100vh;
+    width:100%;
+
   }
   .add-icon {
     width: 2.5rem;
     position: relative;
-    top: 27rem;
-    left: 9rem;
+    top: 17rem;
+    left: 19rem;
   }
 }
 
@@ -182,10 +195,18 @@
   .sidebar h2 {
     font-size: 1.8rem;
   }
+  .sidebar{
+    height:100vh;
+    width:100vw;
+    padding:1rem;
+  }
   .add-icon {
     width: 2.5rem;
     position: relative;
-    top: 28rem;
+    top: 17rem;
     left: 7.7rem;
   }
 }
+ */
+
+

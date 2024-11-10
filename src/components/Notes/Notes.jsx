@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaPaperPlane } from "react-icons/fa";
+import { BiSolidSend } from "react-icons/bi";
 import "./Notes.css";
 
 const Notes = ({ selectedGroup }) => {
@@ -96,7 +96,7 @@ const Notes = ({ selectedGroup }) => {
             disabled={!note.trim()}
             className="send-button"
           >
-            <FaPaperPlane />
+            <BiSolidSend />
           </button>
         </div>
       </div>
