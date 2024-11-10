@@ -19,20 +19,13 @@ function App() {
 
   return (
     <div className="app-container">
-      <MainScreen />
-      
+      <MainScreen />    
       <Group
         groups={groups}
         currentGroup={currentGroup}
         setCurrentGroup={setCurrentGroup}
       />
       {currentGroup && <Notes currentGroup={currentGroup} />}
-      {/* <img
-        src="/path-to-plus-icon.png"
-        alt="Add Group"
-        className="add-group-icon"
-        onClick={() => setIsPopupOpen(true)}
-      /> */}
       {isPopupOpen && (
         <GroupPopup
           onClose={() => setIsPopupOpen(false)}
@@ -43,7 +36,4 @@ function App() {
     </div>
   );
 }
-
-
-
 export default App;
