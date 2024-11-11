@@ -15,7 +15,6 @@
   border-radius: 0.5em;
   width: 45%;
   height: 28%;
-  /* position: relative; */
 }
 
 .popup-container h2 {
@@ -30,26 +29,17 @@
 
 .input-container {
   margin-bottom: 6%;
-  /* width: 100%; */
   width:auto;
-  
 }
 
-/* input#groupName {
-  display: inline;
-} */
-
 label {
-  /* margin-bottom: 1rem; */
   width: 20%;
-  /* display: inline; */
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.035em;
   text-align: left;
   color: #000;
-  /* padding-right: 3rem; */
 }
 
 .input-container input {
@@ -71,10 +61,8 @@ label {
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.5rem;
-  /* left: 28rem; */
   position: fixed;
   width: 7.5rem;
-  /* bottom: 0.1em; */
   height: 2.4rem;
   right:30%;
   top:58%;
@@ -99,14 +87,10 @@ label {
   gap: 0.3em;
   margin-top: 1%;
   width: 50%;
-  /* height: 10%; */
   position: relative;
   left: 38%;
   margin-left: 2%;
-  /* top: 10%; */
-  
-   bottom:2.4rem;
-   /* bottom:1%; */
+  bottom:2.4rem;
 }
 
 .color-circle {
@@ -123,7 +107,6 @@ label {
 }
 
 
-/* Mobile View - Adjust Popup Size */
 @media (max-width: 768px) {
   .popup-container {
     width: 80%;
@@ -137,7 +120,6 @@ label {
 
   .input-container input {
     width: 55%;
-    /* height:20%; */
     font-size: 0.9rem;
     padding:0.2rem;
     margin-bottom: 0.1rem;
@@ -148,29 +130,26 @@ label {
 
   .create-group-btn {
     font-size: 1rem;
-    /* width: 120%; */
-    /* display:flex; */
     height:1.6rem;
     padding:0.1rem;
-    /* align-items: center; */
-    position: fixed;
-    top:60%;
-    right:38%;
+    /* position: absolute; */
+    /* top:60%; */
+    /* right:30%; */
+    /* left:304; */
   }
-
-
 }
 
 @media (max-width: 425px) {
   .popup-container {
     width: 80%;
     height: auto;
-    padding: 1rem 0 1rem 1rem ;
+    padding: 1rem 0.5rem 1rem 1rem ;
   }
 
   .create-group-btn {
     font-size: 0.9rem;
-    width: 5rem;
+    width: 10rem;
+    margin-top:2%;
   }
   label{
     font-size:0.9rem;
@@ -179,6 +158,8 @@ label {
   .color-options {
     gap: 0.2em;
   }
+
+
 }
 
 
@@ -186,105 +167,3 @@ label {
 
 
 
-/* 
-@media (max-width: 425px ) {
-  .popup-container {
-    width: 70%;
-    height: 30%;
-    /* padding: 2.5rem 2rem; */
-    /* margin-bottom: 0.5rem; */
-  
-  /* .popup-container h2 {
-    font-size: 1rem;
-  }
-  label{
-    font-size:0.9rem;
-  }
-  .input-container{
-    width: 70%;
-    height:10%;
-  }
-  .create-group-btn {
-    font-size: 1rem;
-    width: 7rem;
-    height: 2.2rem;
-    left:65%;
-    top:61%;
-  } */
-
-
-
-/* @media (max-width: 425px) {
-  .popup-container {
-    width: 80%;
-    padding: 2rem 1.5rem;
-    height:30%;
-    font-size: 1.1rem;
-
-  }
-  .popup-container h2 {
-    font-size: 1.1rem;
-  }
-  .input-container input {
-    width: 60%;
-    font-size: 1rem;
-  }
-  .label{
-    font-size: 1rem;
-  }
-  .create-group-btn {
-    font-size: 1rem;
-    width: 6.5rem;
-    height: 2rem;
-  }
-  .color-options {
-    width: 60%;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 375px) {
-  .popup-container {
-    width: 85%;
-    padding: 1.5rem 1rem;
-  }
-  .popup-container h2 {
-    font-size: 1.3rem;
-  }
-  .create-group-btn {
-    font-size: 0.9rem;
-    width: 6rem;
-  }
-  .color-options {
-    width: 100%;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 320px) {
-  .popup-container {
-    width: 90%;
-    padding: 1rem;
-  }
-  .popup-container h2 {
-    font-size: 1.2rem;
-  }
-  .input-container input {
-    font-size: 1rem;
-    padding: 0.5rem;
-  }
-  .create-group-btn {
-    font-size: 0.85rem;
-    width: 5.5rem;
-    height: 1.8rem;
-  }
-  .color-picker,
-  .color-options {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-  .color-options {
-    gap: 0.2em;
-  }
-} */

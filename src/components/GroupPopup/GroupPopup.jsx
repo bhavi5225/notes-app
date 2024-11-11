@@ -19,9 +19,8 @@ const GroupPopup = ({ onClose, addGroup }) => {
     e.preventDefault();
 
     const words = groupName.trim().split(" ");
-    if (words.length < 2) return; // Ignore if name has less than two words
+    if (words.length < 2) return; 
 
-    // Capitalize the first letter of each word
     const formattedGroupName = groupName
       .split(" ")
       .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
