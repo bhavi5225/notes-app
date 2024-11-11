@@ -64,4 +64,37 @@
   margin-left: 5rem;
 } 
  
- 
+ /* Group List and Group Item for Mobile */
+@media (max-width: 768px) {
+  .group-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 100vh; /* Reduce height to fit mobile */
+  }
+  .group-initials{
+    font-size: 0.1rem;
+    padding: 1.5rem;
+  }
+
+  .group-item {
+    height: 4rem;
+    padding-left: 1rem;
+  }
+  
+  .group-name {
+    margin-left: 20%;
+    font-size: 1rem;
+  }
+  .color-circle{
+    height:1.2rem;
+    width:1.2rem;
+    margin-top:0.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+.group-name{
+  margin-left: 24%;
+}
+}
