@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Notes from './components/Notes/Notes';
 import MainScreen from './components/MainScreen/MainScreen';

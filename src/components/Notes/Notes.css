@@ -174,7 +174,6 @@ textarea {
   background: #ffffff;
 }
 
-
 @media (max-width: 768px) {
   .notes-container {
     height: 100vh; 
@@ -196,8 +195,6 @@ textarea {
     height: 2rem;
     font-size: 0.8rem;
     margin-left: 1.5rem;
-    
-    
   }
 
   .notes-list {
@@ -211,7 +208,6 @@ textarea {
   }
   .note-item small{
     font-size: 0.9rem;
-
   }
 
   .textarea-wrapper {

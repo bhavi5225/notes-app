@@ -68,7 +68,6 @@ const MainScreen = () => {
           onClick={togglePopup} 
         />
       </div>
-
       <div className={`content ${isMobile && selectedGroup ? 'mobile-content' : ''}`}>
         {!selectedGroup ? (
           <>

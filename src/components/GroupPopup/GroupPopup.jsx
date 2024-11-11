@@ -4,7 +4,6 @@ import './GroupPopup.css';
 const GroupPopup = ({ onClose, addGroup }) => {
   const [groupName, setGroupName] = useState("");
   const [selectedColor, setSelectedColor] = useState("#B38BFA");
-
   const COLORS = ["#B38BFA", "#FF79F2", "#43E6FC", "#F19576", "#0047FF", "#6691FF"];
 
   const getInitials = (name) => {

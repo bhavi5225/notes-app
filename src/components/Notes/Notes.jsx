@@ -80,7 +80,6 @@ const Notes = ({ selectedGroup }) => {
           </div>
         ))}
       </div>
-
       <div className="input-area">
         <div className="textarea-wrapper">
           <textarea
